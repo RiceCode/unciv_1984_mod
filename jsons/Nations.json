@@ -27,8 +27,8 @@
   "afterPeace": "The cessation of hostilities is merely a temporary reassessment of tactical priorities.",
   "tradeRequest": "We have need of your goods. Failure to comply will be noted and assessed later.",
 
-  "outerColor": [50, 50, 50], // Dark Gray/Black
-  "innerColor": [190, 190, 190], // Light Gray/Silver
+  "outerColor": [50, 50, 50], 
+  "innerColor": [190, 190, 190], 
   "uniqueName": "Hegemony's Will",
   "uniques": [
     "Values strength above all. Fields the [Titan Guard Infantry], [The Obliterator], and the [F77 Fury Jet].",
