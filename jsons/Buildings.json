@@ -1,25 +1,17 @@
 [
 	{
-		"name": "Holodeck",
-		"replaces": "Circus Maximus",
-		"uniqueTo": "Aliens",
-		"cost": 480,
-		"happiness": 12,
-		"culture": 12,
-		"science": 12,
-		"maintenance": 96,
-		"isNationalWonder": true,
-		"requiredBuildingInAllCities": "Colosseum",
-		"requiredTech": "Horseback Riding"
-	},
-	{
-		"name": "Breeders",
-		"replaces": "Aqueduct",
-		"uniqueTo": "Aliens",
-		"cost": 80,
-		"hurryCostModifier": 160,
-		"happiness": 2,
-		"uniques": ["40% of food is carried over after a new citizen is born"],
-		"requiredTech": "Engineering"
+	  "name": "Tribute Hall",
+	  "replaces": "Military Academy",
+	  "uniqueTo": "The Atlas Hegemony",
+	  "cost": 400,
+	  "requiredTech": "Military Science",
+	  "uniques": [
+	    "Provides [15] [XP] for all new [Military] units trained in this city",
+	    "+5 [Gold] per turn",
+	    "+5 [Culture] per turn",
+	    "+1 [Gold] from every [Barracks] in your empire",
+	    "All newly-trained units in this city start with [Shock I]"
+	  ],
+	  "requiredBuilding": "Armory"
 	}
 ]
