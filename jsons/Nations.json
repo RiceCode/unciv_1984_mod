@@ -1,38 +1,61 @@
-[
-	{
-		"name": "Aliens",
-		"leaderName": "Zyxxyz",
-		"adjective": ["alien"],
-		"startBias": ["Snow"],
-		"preferredVictoryType": "Scientific",
-		
-		"startIntroPart1": "We come in peace!",
-		"startIntroPart2": "This is an overpowered joke nation just as an example for the mods feature. Set Phasers to Obliterate!!",
-		
-		"declaringWar": "Resistance is futile! Prepare to be assimilated!",
-		"attacked": "You want to play? Very funny!",
-		"defeated": "How is it possible that those Apes hurt us? The galactic senate will take care of them.",
-		"introduction": "As superior galactic entities, you are not worthy of our attention.",
-		
-		"neutralHello": "How are you doing?",
-		"neutralLetsHearIt": ["Go on.","What do you say?","You may begin."],
-		"neutralNo": ["We absolutely refuse.","No!","I refuse."],
-		"neutralYes": ["Very good.","Of course, yes.","That is very good."],
+{
+  "name": "The Atlas Hegemony",
+  "leaderName": "Supreme Autarch Kael",
+  "adjective": ["Hegemonic"],
+  "startBias": ["Hill"],
+  "preferredVictoryType": "Domination",
 
-		"hateHello": "What do you want now?",
-		"hateLetsHearIt": ["Speak!","What do you say?","Go on."],
-		"hateNo": ["That is not possible!","We are not agreeing to that!","I beg your pardon?"],
-		"hateYes": ["That is fine.","That is good enough.","Very well..."],
-		
-		"afterPeace": "Very well, all that fighting was getting boring anyway.",
-		"tradeRequest": "We bestow you the honor of this trade offer.",
+  "startIntroPart1": "You are Supreme Autarch Kael, the iron-fisted ruler of the Atlas Hegemony. From the shadows of history, your nation has risen, not by diplomacy or philosophy, but through unyielding strength and the absolute subjugation of all who stand in your path. The weak are consumed, the hesitant are crushed, and only the relentless march of the Titan Guard is eternal.",
+  "startIntroPart2": "Supreme Autarch, the time for mere survival is over. Your destiny is to enforce your will across the globe. Lead the Hegemony to an era of total and unquestioned dominance!",
 
-		"outerColor": [16,16,16],
-		"innerColor": [255,200,200],
-		"unique": "MANIFEST_DESTINY",
-		"cities": ["The Hive","Q'Throczan","Q'Chovex","Q'Imphet","Q'Omphead","Q'Grecoks","Q'Vrelzieks","Q'Vronens","Q'Aerlae",
-			"Q'Phulnoith","Q'Creved","Q'Xirqen","Q'Gax","Q'Threqals","Q'Bhilmuk","Q'Mazea","Q'Zomirs","Q'Drorkrex","Q'Honkrath",
-			"Q'Zulgra","Q'Vahars","Q'Crindith","Q'Raavraes","Q'Bhoknais","Qho'Qru","Q'Dateatz","Q'Elnad","Q'Izien","Qol'Ell",
-			"Q'Dhihien","Q'Naquiel","Q'Ugneon","Q'Straquks","Q'Nulptr","Q'Ohfahl"]
-	}
-]
+  "declaringWar": "Your weakness has become an intolerable offense. We come to collect the cost of your existence.",
+  "attacked": "You mistake bravery for foolishness. This will be an expensive lesson for you.",
+  "defeated": "The machine has stopped... for now. This world will yet bow to strength.",
+  "denounced": "Your pathetic words are wind. We only recognize the language of steel and cannon.",
+  "introduction": "Submit now, and your end will be swift.",
+
+  "neutralHello": "Do not waste our time. State your business.",
+  "neutralLetsHearIt": ["Proceed with purpose.","State your request.","Let us hear your tribute."],
+  "neutralNo": ["That is unacceptable.","The Hegemony does not acquiesce.","Denied."],
+  "neutralYes": ["It is permitted.","A wise choice.","Approved."],
+
+  "hateHello": "The air grows heavy with your ineptitude. Speak, before we grow impatient.",
+  "hateLetsHearIt": ["Why do you persist?","Be quick, mortal.","Speak, before I tire."],
+  "hateNo": ["Never.","Such weakness is forbidden!","The request is void."],
+  "hateYes": ["If you insist.","A minor concession.","Very well."],
+
+  "afterPeace": "The cessation of hostilities is merely a temporary reassessment of tactical priorities.",
+  "tradeRequest": "We have need of your goods. Failure to comply will be noted and assessed later.",
+
+  "outerColor": [50, 50, 50], // Dark Gray/Black
+  "innerColor": [190, 190, 190], // Light Gray/Silver
+  "uniqueName": "Hegemony's Will",
+  "uniques": [
+    "Values strength above all. Fields the [Titan Guard Infantry], [The Obliterator], and the [F77 Fury Jet].",
+    "Constructs the [Tribute Hall] in place of the [Military Academy]."
+  ],
+  "startingTech": "Bronze Working",
+  "cities": [
+    "Aethelgard",
+    "Titan's Fist",
+    "The Bulwark",
+    "Ironhaven",
+    "Kael's Keep",
+    "Aegis",
+    "Dominus",
+    "Fortress of Might",
+    "Skyreach",
+    "Vanguard",
+    "Obsidian Citadel",
+    "Judgement Peak",
+    "The Gauntlet",
+    "Warfang",
+    "Blacksteel",
+    "Crimson Hold",
+    "Null Zone",
+    "Alpha Site",
+    "Sovereign Point",
+    "Pylon Six"
+  ]
+}
+
