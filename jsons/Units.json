@@ -1,17 +1,39 @@
 [
 	{
-		"name": "Phasers",
-		"unitType": "Ranged",
-		"uniqueTo": "Aliens",
-		"replaces": "Machine Gun",
-		"movement": 2,
-		"strength": 90,
-		"rangedStrength": 36,
-		"range": 2,
-		"cost": 500,
-		"requiredTech": "Ballistics",
-		"requiredResource": "Uranium",
-		"promotions": ["Logistics","Accuracy I"],
-		"attackSound": "phasers"
+	  "name": "Titan Guard Infantry",
+	  "replaces": "Mechanized Infantry",
+	  "uniqueTo": "The Atlas Hegemony",
+	  "movement": 3,
+	  "strength": 100, // Overpowered!
+	  "cost": 450,
+	  "requiredTech": "Mobile Tactics",
+	  "promotions": ["Shock I", "Drill I", "Cover I"],
+	  "uniques": ["Replaces [Mechanized Infantry]"]
+	}, 
+	{
+	  "name": "The Obliterator",
+	  "replaces": "Rocket Artillery",
+	  "uniqueTo": "The Atlas Hegemony",
+	  "movement": 2,
+	  "strength": 30,
+	  "rangedStrength": 120, // Overpowered!
+	  "range": 4,
+	  "cost": 500,
+	  "requiredTech": "Rocketry",
+	  "promotions": ["Indirect Fire", "Logistics"],
+	  "uniques": ["Replaces [Rocket Artillery]", "May not attack directly"]
+	},
+	{
+	  "name": "F77 Fury Jet",
+	  "replaces": "Jet Fighter",
+	  "uniqueTo": "The Atlas Hegemony",
+	  "movement": 10,
+	  "strength": 110, // Overpowered!
+	  "rangedStrength": 90,
+	  "range": 12,
+	  "cost": 500,
+	  "requiredTech": "Stealth",
+	  "promotions": ["Air Ambush I", "Air Targeting I"],
+	  "uniques": ["Replaces [Jet Fighter]", "Can perform [Air Sweep]"]
 	}
 ]
