@@ -2,12 +2,12 @@
 	{
 	  "name": "Titan Guard Infantry",
 	  "unitType": "Melee", 
-	  "replaces": "Mechanized Infantry",
+	  "replaces": "Infantry",
 	  "uniqueTo": "The Atlas Hegemony",
 	  "movement": 3,
 	  "strength": 100,
 	  "cost": 450,
-	  "requiredTech": "Mobile Tactics",
+	  "requiredTech": "Plastics",
 	  "maintenance": 4,  
 	  "obsoleteTech": "Future Tech", 
 	  "promotions": ["Shock I", "Drill I", "Cover I"],
@@ -17,7 +17,7 @@
 	{
 	  "name": "The Obliterator",
 	  "unitType": "Siege",
-	  "replaces": "Rocket Artillery",
+	  "replaces": "Artillery",
 	  "uniqueTo": "The Atlas Hegemony",
 	  "movement": 2,
 	  "strength": 30,
@@ -40,10 +40,10 @@
 	  "rangedStrength": 90,
 	  "range": 12,
 	  "cost": 500,
-	  "requiredTech": "Stealth",
+	  "requiredTech": "Radar",
 	  "maintenance": 6,  
 	  "obsoleteTech": "Future Tech", 
 	  "promotions": ["Dogfighting I", "Evasion"],
-	  "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Can perform [Air Sweep]"]
+	  "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	}
 ]
