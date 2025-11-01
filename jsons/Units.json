@@ -11,7 +11,8 @@
 	  "maintenance": 4,  
 	  "obsoleteTech": "Future Tech", 
 	  "promotions": ["Shock I", "Drill I", "Cover I"],
-	  "uniques": ["Replaces [Mechanized Infantry]"]
+	  "attackSound": "shot",
+	  "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 	  "name": "The Obliterator",
@@ -27,7 +28,7 @@
 	  "maintenance": 5,  
 	  "obsoleteTech": "Future Tech", 
 	  "promotions": ["Indirect Fire", "Logistics"],
-	  "uniques": ["Replaces [Rocket Artillery]", "May not attack directly"]
+	  "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
 	{
 	  "name": "F77 Fury Jet",
@@ -43,6 +44,6 @@
 	  "maintenance": 6,  
 	  "obsoleteTech": "Future Tech", 
 	  "promotions": ["Dogfighting I", "Evasion"],
-	  "uniques": ["Replaces [Jet Fighter]", "Can perform [Air Sweep]"]
+	  "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>", "Can perform [Air Sweep]"]
 	}
 ]
