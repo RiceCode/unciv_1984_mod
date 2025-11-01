@@ -43,7 +43,8 @@
 	  "promotions": ["Cover I", "Drill I"],
 	  "attackSound": "shot",
 	  "uniques": [
-	    "[+25]% Strength <when defending>"
+	    "[+25]% Strength <when defending>",
+		"Spreads [10] Culture on combat victory"
 	  ]
 	},
 	{
@@ -95,7 +96,8 @@
 	  "promotions": ["Scouting I"],
 	  "attackSound": "shot",
 	  "uniques": [
-	    "No resource required",
+	    "[+25]% Strength <when defending>",
+		"Spreads [10] Culture on combat victory",
 	    "[+1] Sight"
 	  ]
 	}, 
