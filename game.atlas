@@ -1,33 +1,86 @@
 
 game.png
-size: 512, 128
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+NationIcons/TheAtlasHegemony
+  rotate: false
+  xy: 4, 1036
+  size: 1152, 896
+  orig: 1152, 896
+  offset: 0, 0
+  index: -1
+UnitIcons/F77FuryJet
+  rotate: false
+  xy: 4, 4
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+game2.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/TheObliterator
+  rotate: false
+  xy: 4, 4
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+game3.png
+size: 2048, 2048
+format: RGBA8888
+filter: MipMapLinearLinear, MipMapLinearLinear
+repeat: none
+UnitIcons/TitanGuardInfantry
+  rotate: false
+  xy: 4, 4
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
+
+game4.png
+size: 2048, 2048
 format: RGBA8888
 filter: MipMapLinearLinear, MipMapLinearLinear
 repeat: none
 BuildingIcons/Breeders
   rotate: false
-  xy: 112, 4
+  xy: 1036, 1144
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 BuildingIcons/Holodeck
   rotate: false
-  xy: 220, 4
+  xy: 4, 4
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
+BuildingIcons/Tribute Hall
+  rotate: false
+  xy: 4, 220
+  size: 1024, 1024
+  orig: 1024, 1024
+  offset: 0, 0
+  index: -1
 NationIcons/Aliens
   rotate: false
-  xy: 4, 4
+  xy: 4, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
   index: -1
 UnitIcons/Phasers
   rotate: false
-  xy: 328, 4
+  xy: 112, 112
   size: 100, 100
   orig: 100, 100
   offset: 0, 0
