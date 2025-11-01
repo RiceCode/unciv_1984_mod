@@ -119,7 +119,7 @@
       "Hammerfall"
     ]
   }, 
-  That's an interesting twist! Combining the Survivalist theme with a Religious Victory changes the focus from divine revelation to Dogged Resilience and Worship of the Ancestors/Land. Their "religion" is a desperate necessity—a faith born from hardship and focused on endurance and tradition, not conquest.Here is the revised JSON for the Nomad Scavengers with a Religious focus, renamed and themed to reflect a desperate, land-worshiping culture.⛰️ The Team of Resilient Faith: The Hearthbound ClansThis team's faith is not about purity or conquest, but about endurance and survival. Their religion is deeply tied to their ancestors and the unforgiving land, making a Religious Victory their goal, achieved through quiet, persistent spreading of their protective dogma. They still start in harsh lands (Tundra/Desert) to reflect their origin.TraitChange/FocusNameThe Hearthbound ClansLeaderElder Shaman KovaPreferred VictoryReligious (Achieved through tenacity, not zeal.)Unique FocusUnits are tougher and spread faith when they survive battles.Revised JSON: The Hearthbound ClansJSON  {
+  {
     "name": "The Hearthbound Clans",
     "leaderName": "Elder Shaman Kova",
     "adjective": ["Hearthbound"],
