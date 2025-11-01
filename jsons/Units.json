@@ -45,7 +45,7 @@
 	  "maintenance": 6,  
 	  "obsoleteTech": "Future Tech", 
 	  "upgradesTo": "Stealth Bomber", 
-	  "promotions": ["Air Ambush I", "Air Targeting I"],
+	  "promotions": ["Dogfighting I", "Air Targeting I"],
 	  "uniques": ["Replaces [Jet Fighter]", "Can perform [Air Sweep]"]
 	}
 ]
