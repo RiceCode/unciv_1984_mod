@@ -10,7 +10,6 @@
 	  "requiredTech": "Mobile Tactics",
 	  "maintenance": 4,  
 	  "obsoleteTech": "Future Tech", 
-	  "upgradesTo": "XCOM Squad", 
 	  "promotions": ["Shock I", "Drill I", "Cover I"],
 	  "uniques": ["Replaces [Mechanized Infantry]"]
 	},
@@ -27,7 +26,6 @@
 	  "requiredTech": "Rocketry",
 	  "maintenance": 5,  
 	  "obsoleteTech": "Future Tech", 
-	  "upgradesTo": "Advanced Artillery", 
 	  "promotions": ["Indirect Fire", "Logistics"],
 	  "uniques": ["Replaces [Rocket Artillery]", "May not attack directly"]
 	},
@@ -44,8 +42,7 @@
 	  "requiredTech": "Stealth",
 	  "maintenance": 6,  
 	  "obsoleteTech": "Future Tech", 
-	  "upgradesTo": "Stealth Bomber", 
-	  "promotions": ["Dogfighting I", "Air Targeting I"],
+	  "promotions": ["Dogfighting I", "Evasion"],
 	  "uniques": ["Replaces [Jet Fighter]", "Can perform [Air Sweep]"]
 	}
 ]
