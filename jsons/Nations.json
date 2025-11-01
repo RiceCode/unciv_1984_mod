@@ -58,6 +58,126 @@
       "Sovereign Point",
       "Pylon Six"
     ]
+  }, 
+  {
+    "name": "The Sanctified Dominion",
+    "leaderName": "Grand Marshal Valerius",
+    "adjective": ["Sanctified"],
+    "startBias": ["Hill"],
+    "preferredVictoryType": "Domination",
+    
+    "startIntroPart1": "You are Grand Marshal Valerius, the sword and shield of the Sanctified Dominion. We do not merely believe—**we act**. The true path is not one of quiet contemplation, but of iron will and relentless purpose. Your nation is the host of the Holy Army, sworn to purge the weak, the corrupt, and the heretical from this world, leaving behind a Dominion of pure, uncompromising faith.",
+    "startIntroPart2": "Grand Marshal, the call to action is undeniable. Lead the Dominion's Holy Host. The righteous must claim the world and enforce the sacred mandate. By the Light, the world shall be purified!",
+    
+    "declaringWar": "You stand against the truth! This is not war, but a **Sacred Injunction**. We come to cleanse your lands of your corrupting influence.",
+    "attacked": "You raise your hand against the chosen? Good. Our soldiers have been thirsting for a righteous fight. You will be purified by the fire of conflict.",
+    "defeated": "The campaign is halted, but the Crusade is eternal. Your temporary victory is merely a pause before the final reckoning.",
+    "denounced": "Your pathetic words are the babbling of a heretic. We denounce you in return, and our armies will speak for the heavens.",
+    "introduction": "The Light reveals all. State your intentions clearly, or be judged as an obstacle to the Holy Will.",
+    
+    "neutralHello": "The Marshal recognizes your presence. State your purpose with efficiency; we have a world to sanctify.",
+    "neutralLetsHearIt": ["Let us hear your tribute.","Be quick. The Crusade moves on.","State your request."],
+    "neutralNo": ["That contradicts the Holy Mandate. Denied.","The Dominion is not swayed by such trivialities.","We refuse to tolerate this weakness."],
+    "neutralYes": ["It serves the greater cause. Approved.","A wise concession.","It is permitted."],
+    
+    "hateHello": "The stench of your defiance is a plague upon this earth. Speak, before your very presence is deemed an unforgivable offense.",
+    "hateLetsHearIt": ["Why do you linger? Speak!","Make your final plea, swiftly.","What is your demand, wretch?"],
+    "hateNo": ["Never! Your existence is an insult!","**Purge the request!**","This weakness is forbidden."],
+    "hateYes": ["A necessary step to our final victory. We agree.","A temporary alliance, but the ultimate judgment awaits.","Very well."],
+    
+    "afterPeace": "Hostilities cease only until the moment your weakness threatens the Dominion once more. Do not mistake peace for friendship.",
+    "tradeRequest": "We demand these goods for the continuation of the Holy War. Consider it the price of your temporary peace.",
+    
+    "outerColor": [170, 0, 0],   // Deep Crimson
+    "innerColor": [255, 255, 0],  // Gold/Yellow
+    "uniqueName": "The Sacred Injunction",
+    "uniques": [
+      "Values faith and military dominance. Fields the [Crusader Knight], [Battle Bishop], and the [Pilgrim's Fortress Ship].",
+      "Constructs the [War-Monastery] in place of the [Barracks]."
+    ],
+    "startingTech": "Bronze Working",
+    "cities": [
+      "Aethelgard",
+      "Sanctus Prime",
+      "The Judgement Gate",
+      "Iron Faith Stronghold",
+      "Valerius' Vow",
+      "Purity's March",
+      "Vigilant Watch",
+      "The Holy Spear",
+      "Redemption Point",
+      "Fort Zealotry",
+      "The Hallowed Blade",
+      "Crusader's Keep",
+      "Ascension's Fortress",
+      "The Anointed City",
+      "Truth's Beacon",
+      "Edict Harbor",
+      "Sunder Keep",
+      "Faith's Rampart",
+      "The Exalted Altar",
+      "Hammerfall"
+    ]
+  }, 
+  That's an interesting twist! Combining the Survivalist theme with a Religious Victory changes the focus from divine revelation to Dogged Resilience and Worship of the Ancestors/Land. Their "religion" is a desperate necessity—a faith born from hardship and focused on endurance and tradition, not conquest.Here is the revised JSON for the Nomad Scavengers with a Religious focus, renamed and themed to reflect a desperate, land-worshiping culture.⛰️ The Team of Resilient Faith: The Hearthbound ClansThis team's faith is not about purity or conquest, but about endurance and survival. Their religion is deeply tied to their ancestors and the unforgiving land, making a Religious Victory their goal, achieved through quiet, persistent spreading of their protective dogma. They still start in harsh lands (Tundra/Desert) to reflect their origin.TraitChange/FocusNameThe Hearthbound ClansLeaderElder Shaman KovaPreferred VictoryReligious (Achieved through tenacity, not zeal.)Unique FocusUnits are tougher and spread faith when they survive battles.Revised JSON: The Hearthbound ClansJSON  {
+    "name": "The Hearthbound Clans",
+    "leaderName": "Elder Shaman Kova",
+    "adjective": ["Hearthbound"],
+    "startBias": ["Tundra", "Desert"],
+    "preferredVictoryType": "Religious",
+
+    "startIntroPart1": "You are Elder Shaman Kova, the keeper of the ancestral memory for the Hearthbound Clans. Your people have survived where others perished, not by grand empires or overwhelming force, but by honoring the harsh spirit of the land and the wisdom of those who came before. Your faith is a stubborn refusal to break, a promise whispered by the spirits of the deep earth: **We endure.**",
+    "startIntroPart2": "Elder Shaman, the clans are scattered and weary. Lead them to knit the world together, spreading the ancient truths of resilience and reverence. Let all learn the doctrine of endurance, securing the final victory for the Hearthbound!",
+
+    "declaringWar": "We seek only peace, but if you bar the path of our pilgrims, we will show you how desperately a cornered people can fight. This conflict is a sorrowful necessity.",
+    "attacked": "You mistake our quiet reverence for weakness. The ancestors are watching, and you have just awakened the survival instinct of generations. You will find us unbreakable.",
+    "defeated": "Our bodies may fail, but our spirit sinks into the earth, ready to teach the next generation how to rise. We will return.",
+    "denounced": "Your hostility is a waste of precious breath. You focus on words while we focus on surviving the next winter. We will outlast you.",
+    "introduction": "We are the inheritors of survival. We offer the wisdom of the old ways. Will you listen, or will you remain lost?",
+
+    "neutralHello": "Greetings, traveler. We hope your journey has brought you no undue hardship. What do you ask of the Clans?",
+    "neutralLetsHearIt": ["Speak of matters that matter.","Tell us what you need.","What is your concern?"],
+    "neutralNo": ["That would endanger the Clan's longevity. No.","The Ancestors forbid such recklessness.","We must conserve."],
+    "neutralYes": ["This allows us to endure. Agreed.","It is a sound path forward.","A wise trade."],
+
+    "hateHello": "The shadow of your ill-will is long. We have faced greater threats in the barren lands. State your business and depart.",
+    "hateLetsHearIt": ["Be quick. Our patience is a limited resource.","Why do you trouble us?","What is your complaint?"],
+    "hateNo": ["You have misjudged us. Never.","We refuse to throw away what little we have!","Impossible."],
+    "hateYes": ["If it buys us time to prepare, we accept.","A bitter pill, but we will swallow it.","Very well, for now."],
+
+    "afterPeace": "The cessation of violence is good. The world is too harsh for needless conflict.",
+    "tradeRequest": "We require resources to feed the Clan. In exchange, we offer the protection of our ancestral knowledge. It is a fair price.",
+
+    "outerColor": [70, 80, 70],    // Muted green/grey
+    "innerColor": [150, 150, 150],  // Stone/Ash Grey
+    "uniqueName": "Ancient Resilience",
+    "uniques": [
+      "Values tenacity and faith. Fields the [Ancestor Warrior], [Pilgrim Shaman], and the [Tundra Scout].",
+      "Constructs the [Spiritual Hearth] in place of the [Shrine]."
+    ],
+    "startingTech": "Pottery",
+    "cities": [
+      "Aethelgard",
+      "Kova's Hold",
+      "The Still Heart",
+      "Whispering Gorge",
+      "Ancestor's Cairn",
+      "Silent Watch",
+      "Hardened Rock",
+      "The Long Road",
+      "Wanderer's End",
+      "Stone Song",
+      "Tribute Barrow",
+      "The Unbroken",
+      "Faith's Frost",
+      "Shelter's Edge",
+      "Ash Harbor",
+      "The Forgotten Path",
+      "Emberlight",
+      "Root Sanctuary",
+      "Ironwood Post",
+      "The Hidden Spring"
+    ]
   }
 ]
 
