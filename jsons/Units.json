@@ -31,7 +31,7 @@
 	},
 	{
 	  "name": "F77 Fury Jet",
-	  "unitType": "Aircraft",
+	  "unitType": "Air",
 	  "replaces": "Jet Fighter",
 	  "uniqueTo": "The Atlas Hegemony",
 	  "movement": 10,
