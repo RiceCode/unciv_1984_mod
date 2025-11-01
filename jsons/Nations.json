@@ -88,8 +88,8 @@
     "afterPeace": "Hostilities cease only until the moment your weakness threatens the Dominion once more. Do not mistake peace for friendship.",
     "tradeRequest": "We demand these goods for the continuation of the Holy War. Consider it the price of your temporary peace.",
     
-    "outerColor": [170, 0, 0],   // Deep Crimson
-    "innerColor": [255, 255, 0],  // Gold/Yellow
+    "outerColor": [170, 0, 0],   
+    "innerColor": [255, 255, 0], 
     "uniqueName": "The Sacred Injunction",
     "uniques": [
       "Values faith and military dominance. Fields the [Crusader Knight], [Battle Bishop], and the [Pilgrim's Fortress Ship].",
@@ -148,8 +148,8 @@
     "afterPeace": "The cessation of violence is good. The world is too harsh for needless conflict.",
     "tradeRequest": "We require resources to feed the Clan. In exchange, we offer the protection of our ancestral knowledge. It is a fair price.",
 
-    "outerColor": [70, 80, 70],    // Muted green/grey
-    "innerColor": [150, 150, 150],  // Stone/Ash Grey
+    "outerColor": [70, 80, 70],   
+    "innerColor": [150, 150, 150], 
     "uniqueName": "Ancient Resilience",
     "uniques": [
       "Values tenacity and faith. Fields the [Ancestor Warrior], [Pilgrim Shaman], and the [Tundra Scout].",
