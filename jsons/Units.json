@@ -1,10 +1,10 @@
 [
 	{
-	  "name": "Titan Guard Infantry",
+	  "name": "Titan Infantry",
 	  "unitType": "Melee", 
 	  "replaces": "Infantry",
 	  "uniqueTo": "The Atlas Hegemony",
-	  "movement": 3,
+	  "movement": 2,
 	  "strength": 100,
 	  "cost": 450,
 	  "requiredTech": "Plastics",
@@ -12,8 +12,93 @@
 	  "obsoleteTech": "Future Tech", 
 	  "promotions": ["Shock I", "Drill I", "Cover I"],
 	  "attackSound": "shot",
-	  "uniques": ["[+20]% Strength <when fighting in [Foreign Land] tiles>"]
+	  "uniques": ["[+10]% Strength <when fighting in [Foreign Land] tiles>"]
 	},
+	{
+	  "name": "Main Line Infantry",
+	  "unitType": "Melee", 
+	  "replaces": "Infantry",
+	  "uniqueTo": "The Sanctified Dominion",
+	  "movement": 2,
+	  "strength": 70,
+	  "cost": 300,
+	  "requiredTech": "Plastics",
+	  "maintenance": 4,  
+	  "obsoleteTech": "Future Tech", 
+	  "promotions": ["Shock I", "Drill I", "Cover I"],
+	  "attackSound": "shot",
+	  "uniques": ["[+15]% Strength <when fighting in [Foreign Land] tiles>"]
+	},
+	{
+	  "name": "Rebel Fighter",
+	  "unitType": "Melee",
+	  "replaces": "Infantry",
+	  "uniqueTo": "The Hearthbound Clans",
+	  "movement": 3,
+	  "strength": 55,
+	  "cost": 225,
+	  "requiredTech": "Plastics",
+	  "maintenance": 1,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Cover I", "Drill I"],
+	  "attackSound": "shot",
+	  "uniques": [
+	    "[+25]% Strength <when defending>"
+	  ]
+	},
+	{
+	  "name": "Titan Guard Infantry",
+	  "unitType": "Gunpowder",
+	  "replaces": "Mechanized Infantry",
+	  "uniqueTo": "The Atlas Hegemony",
+	  "movement": 2,
+	  "strength": 110,
+	  "cost": 500,
+	  "requiredTech": "Plastics",
+	  "maintenance": 4,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Shock I", "Drill I", "Blitz"],
+	  "attackSound": "shot",
+	  "uniques": [
+	    "[-10]% Damage taken <when defending>",
+	    "[-10]% Damage taken <when attacking>"
+	  ]
+	},
+	{
+	  "name": "Paladin Defender",
+	  "unitType": "Gunpowder",
+	  "replaces": "Mechanized Infantry",
+	  "uniqueTo": "The Sanctified Dominion",
+	  "movement": 3,
+	  "strength": 90,
+	  "cost": 375,
+	  "requiredTech": "Plastics",
+	  "maintenance": 3,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Shock I", "Drill I"],
+	  "attackSound": "shot",
+	  "uniques": [
+	    "Spreads [1] Faith on combat victory"
+	  ]
+	}, 
+	{
+	  "name": "Wasteland Technical",
+	  "unitType": "Gunpowder",
+	  "replaces": "Mechanized Infantry",
+	  "uniqueTo": "The Hearthbound Clans",
+	  "movement": 4,
+	  "strength": 70,
+	  "cost": 250,
+	  "requiredTech": "Plastics",
+	  "maintenance": 2,
+	  "obsoleteTech": "Future Tech",
+	  "promotions": ["Scouting I"],
+	  "attackSound": "shot",
+	  "uniques": [
+	    "No resource required",
+	    "[+1] Sight"
+	  ]
+	}, 
 	{
 	  "name": "The Obliterator",
 	  "unitType": "Siege",
