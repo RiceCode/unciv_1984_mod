@@ -124,7 +124,7 @@
     "leaderName": "Elder Shaman Kova",
     "adjective": ["Hearthbound"],
     "startBias": ["Tundra", "Desert"],
-    "preferredVictoryType": "Religious",
+    "preferredVictoryType": "Cultural",
 
     "startIntroPart1": "You are Elder Shaman Kova, the keeper of the ancestral memory for the Hearthbound Clans. Your people have survived where others perished, not by grand empires or overwhelming force, but by honoring the harsh spirit of the land and the wisdom of those who came before. Your faith is a stubborn refusal to break, a promise whispered by the spirits of the deep earth: **We endure.**",
     "startIntroPart2": "Elder Shaman, the clans are scattered and weary. Lead them to knit the world together, spreading the ancient truths of resilience and reverence. Let all learn the doctrine of endurance, securing the final victory for the Hearthbound!",
